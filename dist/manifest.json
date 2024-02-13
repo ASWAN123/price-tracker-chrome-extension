@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "name": "price tracker",
+    "description": "price tracker :This is a Chrome extension built with React and TypeScript",
+    "action": {
+        "default_icon": {
+            "16": "logo192.png"
+        },
+        "default_title": "Price Tracker" ,
+        "default_popup": "index.html"
+    },
+    "permissions": ["tabs", "activeTab"],
+    "host_permissions": ["http://*/*", "https://*/*"]
+}
